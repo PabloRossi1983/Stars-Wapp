@@ -1,0 +1,18 @@
+
+.header-title-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+   
+}
+
+.header-title{
+    font-size: 7rem;
+    color: yellow;
+    margin: 0;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}

@@ -1,0 +1,35 @@
+.menu2-cont{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: solid  rgb(0, 252, 252);
+    height: fit-content;
+    width: 13rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.menu-info-cont{
+  display: flex;
+}
+
+.menu2-button-container{
+  display:flex;
+  justify-content: space-between;
+}
+
+.menu2-button{
+  background: none;
+  color: rgb(0, 252, 252);
+}
+
+.menu2-button:hover{
+  cursor: pointer;
+}
+
+.menu2-button:disabled{
+  color: rgba(0, 252, 252, 0.251);
+  cursor: default;
+  border: none;
+}

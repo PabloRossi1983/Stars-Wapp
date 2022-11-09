@@ -1,0 +1,13 @@
+.menu-item{
+    color: rgb(0, 252, 252);
+    text-align: left;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-left: 2rem;
+    width: fit-content
+}
+
+.menu-item:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}

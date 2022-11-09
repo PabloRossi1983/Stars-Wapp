@@ -1,0 +1,16 @@
+.card-text{
+    color: rgb(0, 252, 252);
+
+}
+
+.card-cont{
+    background-color: black;
+    border: solid  rgb(0, 252, 252);
+    height: fit-content;
+    width: 59vw;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}

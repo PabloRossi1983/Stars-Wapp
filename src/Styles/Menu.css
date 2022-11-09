@@ -1,0 +1,10 @@
+.menu-cont{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: solid  rgb(0, 252, 252);
+    height: fit-content;
+    width: 13rem;
+    margin-left: 2rem;
+    
+}
