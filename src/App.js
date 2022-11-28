@@ -6,6 +6,7 @@ import Menu2 from './Components/Menu2';
 import Card from './Components/Card';
 import MenuProvider from './Context/MenuContext';
 import DarkAndLigthSide from './Components/DarkAndLigthSide';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
     <div className="App">
       <MenuProvider>
         <BrowserRouter>
-         <Header />
-         <DarkAndLigthSide />
+          <Header />
+          <DarkAndLigthSide />
           <div className='body-cont'>
             <Routes>
                 <Route path="/" element={<Menu />}>
@@ -22,8 +23,10 @@ function App() {
                     <Route path=":name" element={<Card />} />
                   </Route>
                 </Route>
-            </Routes>
+            </Routes>  
           </div>
+          <Footer />
+
         </BrowserRouter>
       </MenuProvider>
     </div>

@@ -1,0 +1,15 @@
+
+.contact-link{
+    display: flex; 
+}
+
+.icon-name *{
+    color:rgb(0, 252, 252);
+    cursor: pointer;
+    font-size: 20px;
+    transition: 300ms;
+}
+
+/* .icon-name *:hover{
+    color: rgb(0, 252, 252);
+} */
